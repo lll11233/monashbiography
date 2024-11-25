@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Meddon&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.meddon-regular {
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caveat-regular {
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playwrite-regular {
+    font-family: "Playwrite AU TAS", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.beth-ellen-regular {
+    font-family: "Beth Ellen", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playfair-regular {
+    font-family: "Playfair Display", cursive;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.lora-regular {
+    font-family: "Lora", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+
+    color: rgba(105, 86, 60, 1);
+    color: rgba(184, 183, 181, 1);
+    font-family: "Playfair Display", cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h3{
+
+    color: rgba(105, 86, 60, 1);
+    font-family: "Playfair Display", cursive;
+
+}
+
+h1{
+    font-family: "Playfair Display", cursive;
+    font-weight: 400;
+    font-style:normal;
+    color: rgba(105, 86, 60, 1);
+    font-size: 100px;
+}
+
+
+p{
+
+    font-family: "Lora", cursive;
+    color: rgba(105, 86, 60, 1);
+}
+
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgba(76, 55, 38, 1);
+    scroll-behavior: smooth;
+}
+
+.topbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Example height */
+    /* border: 1px solid #ccc; */
+    width: 100%;
+    /* background-color: #f4e9db;
+    border-radius: 10px; */
+}
+
+.entry{
+    
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+@media(prefers-reduced-motion){
+
+    .hidden{
+        transition: none;
+    }
+    .musicnote{
+        transition: none;
+    }
+}
+
+a{
+    font-family:monospace;
+    font-size: 14px;
+    color:gold;
+}
+
+
+
+section{
+
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    width: 100%;
+
+}
+.hidden{
+    opacity: 0;
+    transition: all 3s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+.button{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: fit-content;
+    height: 40px;
+    position: relative;
+    padding: 10px;
+    font-family: "Comfortaa";
+
+}
+.button1 {
+    background-color: #3188B1;; 
+    color: white; 
+    border: 2px solid #FFB703;
+}
+  
+.button1:hover {
+    background-color: #FFB703;
+    color: white;
+}
+
+.topbar1{
+    background-color: #3188B1;
+    height: 75px;
+    width: 100%;
+    top: 0px;
+    padding: 10px;
+    display:flex;
+    transform: translate(-10px,-10px);
+    position:fixed;
+    z-index: 1;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+
+}
+
+
+.highlight {
+    background-color: black;
+    transition: background-color 4s ease;
+}
+
+.divide{
+    height: fit-content;
+    width: 100%;
+    /* background-color: #f4e9db;
+    border-radius: 10px; */
+    display: flex;
+    justify-content: space-between; /* Space between the divs */
+    align-items: center; /* Align vertically in the same line */
+    gap: 20px; /* Optional: Adds space between the divs */
+    margin: auto;
+    padding: 50px;
+    transform: translate(100px,0px);
+}
+
+.footer{
+
+    width: 60%;
+    height: fit-content;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.quote{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.0rem;
+    text-align: center;
+    color: rgba(105, 86, 60, 1); /* Deep red */
+    background: #f4e9db; /* Sepia tone */
+    padding: 20px;
+    border-radius: 10px;
+    animation: fade-in 2s ease-in-out;
+    width: 200px;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+
+}

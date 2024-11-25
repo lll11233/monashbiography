@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sir John Monash</title>
+</head>
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+
+
+
+<body>
+    <header class="topbar">
+        <h1 class="playfair-regular"> Sir John Monash</h1>
+    </header>
+    <section>
+        <div id="quote">
+        <blockquote class="fancy-quote">
+            “…equip yourself for life, not solely for your own benefit but for the benefit of the whole community.”– Sir John Monash
+        </blockquote>    
+        </div>
+        <div id="imageMA"> 
+            <a href="bio.html"> <img style="border-radius: 20px; height: 40%; width: 40%; padding: 20px" src="images/Sir John Monash.jpg"> 
+            </a>
+            <blockquote class="quote">'John Monash' - oil painting created by John Campbell Longstaff</blockquote>
+            <img src="images/seal.png" style="position: absolute; width: 10%; width: 10%; transform: translate(250px,-550px);">
+
+        </div>
+    </section>
+
+
+    <div id="titleHead">
+         <h2 style="display: flex;justify-content: center; align-items: center; padding: 30px;">A Timeline of Monash's activity during WW1</h2>
+    </div>
+
+    <div class="timeline-wrapper">
+
+        <div class="timeline"> 
+            <div class="middle-line"></div>
+
+
+
+        <div class="milestoneStart"> 
+            <div class="year"> 1914</div>
+        </div>
+
+
+        
+        <div class="milestoneSecond"> 
+            <div class="year"> 1915</div>
+        </div>
+
+        <div>
+            <div class="event" style="left:15%" >
+                <div  class="date" data-date="1915" onclick="goToBiography('event1')">
+                    <p>26</p>
+                    <p>APR</p>
+                </div>
+                <div class="line"></div>
+                <p class="eventInfo" style="position: absolute; ">Landing of Anzac Cove</p>
+
+            </div>
+        </div> 
+
+        <div >
+            <div class="event" style="left: 25%; transform: rotate(180deg); bottom: 20px;">
+                <div id="evacuationDate" class="date" data-date="1915" onclick="goToBiography('event2');highlightText('highlight2')">
+                    <p style="transform: rotate(180deg);">DEC</p>
+                    <p style="transform: rotate(180deg);">20</p>
+                </div>
+                <div class="line"></div>
+                <div style="transform: translate(-10px,-115px);">
+                    <p class="eventInfo" style="position: absolute; transform: rotate(180deg); ">Evacuation of Gallipoli</p>
+                </div>
+            </div>
+        </div>
+
+        <div >
+            <div class="event" style="left: 31%;">
+                <div id="firstAnzac" class="date" data-date="1916" onclick="goToBiography('event3')">
+                    <p>26</p>
+                    <p>APR</p>
+                </div>
+                <div class="line"></div>
+                <p class="eventInfo" style="position: absolute; ">First Anzac Day</p>
+            </div>
+        </div>
+
+        <div >
+            <div class="event" style="left: 35%; transform: rotate(180deg); bottom: 20px;">
+                <div id="sentWestern" class="date" data-date="1916" onclick="goToBiography('event4')">
+                    <p style="transform: rotate(180deg);">JUN</p>
+                    <p style="transform: rotate(180deg);">1</p>
+                </div>
+                <div class="line"></div>
+                <div style="transform: translate(-10px,-115px);">
+                    <p class="eventInfo" style="position: absolute; transform: rotate(180deg); ">Sent to the Western Front</p>
+                </div>
+            </div>
+        </div>
+
+        <div >
+            <div class="event" style="left: 61%; transform: rotate(180deg); bottom: 20px;">
+                <div id="lieutant-generalDate" class="date" data-date="1918" onclick="goToBiography('event5')">
+                    <p style="transform: rotate(180deg);">JUN</p>
+                    <p style="transform: rotate(180deg);">1</p>
+                </div>
+                <div  class="line1"></div>
+                <div style="transform: translate(-10px,-115px);">
+                    <p class="eventInfo" style="position: absolute; transform: rotate(180deg); ">Promoted to Lieutant-general </p>
+                </div>
+            </div>
+        </div> 
+
+        <div >
+            <div class="event" style="left: 70%;">
+                <div id="battleHamelDate" class="date" data-date="1918" onclick="goToBiography('event6')">
+                    <p>4th</p>
+                    <p>JULY</p>
+                </div>
+                <div class="line"></div>
+                <p class="eventInfo" style="position: absolute; ">Battle of Hamel </p>
+            </div>
+        </div>
+
+        <div >
+            <div class="event" style="left: 70%; transform: rotate(180deg); bottom: 20px;">
+                <div id="battleAimensDate" class="date" data-date="1918" onclick="goToBiography('event7')" >
+                    <p style="transform: rotate(180deg);">8th</p>
+                    <p style="transform: rotate(180deg);">AUG</p>
+                </div>
+                <div class="line"></div>
+                <div style="transform: translate(-10px,-115px);">
+                    <p class="eventInfo" style="position: absolute; transform: rotate(180deg); ">Battle of Aimens</p>
+                </div>
+            </div>
+        </div> 
+
+        
+        <div >
+            <div class="event" style="left: 92.5%;">
+                <div id="returnMelbourne"  class="date" data-date="1919" onclick="goToBiography('event8')">
+                    <p>15th</p>
+                    <p>NOV</p>
+                </div>
+                <div class="line"></div>
+                <p class="eventInfo" style="position: absolute; ">Return to Melbourne</p>
+            </div>
+        </div>
+
+        
+
+        <div class="midQuater"> 
+            <div class="year"> 1916</div>
+        </div>
+
+
+        <div class="middleMilestone">
+            <div class="year"> 1917</div>
+        </div>
+
+        <div class="secondQuater"> 
+            <div class="year"> 1918</div>
+        </div>
+        
+        <div class="thirdQuater"> 
+            <div class="year"> 1919</div>
+        </div>
+
+
+        <div class="milestoneEnd">
+            <div class="year"> 1920</div>
+        </div>
+
+        </div>
+            
+
+
+
+
+
+
+
+    </div>
+
+
+    <div class="footer"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
